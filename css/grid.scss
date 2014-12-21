@@ -1,0 +1,69 @@
+// ------------------------------------------------------------------
+//  Khan Stick Rebooted Grid System 
+//  Based off of Min CSS http://mincss.com
+//  
+//  Supports IE5.5+, FF3+, Opera 9+, and Safari 4+
+// ------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------
+//  Grid system responsive code 
+//
+// Since every column has 2% padding (1% on each side) its width is
+// (((its number/12) * 100)-2) percent (truncated, to avoid spillage.)
+// Thus, c12 has width 98%.
+//-------------------------------------------------------------------
+
+%w-100 {
+  width: 100%;
+}
+
+.container {
+  margin: 0 20px;
+  width: auto;
+
+  @media(min-width:1310px) {
+    margin: auto;
+    width: 1270px;
+  }
+}
+
+.row {
+  margin: 0 0 1%; //Changed from Min's original 1% 0;
+  overflow: auto; // needed for proper formed layout
+}
+
+.col {
+  float: left;
+}
+
+.c12 {
+  @extend %w-100;
+}
+
+$grid-list: (
+  c1    8.33%,
+  c2   16.66%,
+  c3   25%,
+  c4   33.33%,
+  c5   41.66%,
+  c6   50%,
+  c7   58.33%,
+  c8   66.66%,
+  c9   75%,
+  c10  83.33%,
+  c11  91.66%
+);
+
+@each $value in $grid-list {
+  .#{nth($value, 1)} {
+    width: nth($value, 2);
+  }
+}
+
+@media (max-width:870px) {
+  .row .col {
+    width: 100%;
+  }
+}
+

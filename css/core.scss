@@ -1,0 +1,233 @@
+// ------------------------------------------------------------------
+//  Khan Stick Rebooted Core Styles
+//  Based off of Min CSS http://mincss.com
+//  
+//  Includes styles for headings, buttons, forms, messages, and tables
+// ------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------
+// Variables 
+//-------------------------------------------------------------------
+
+
+// Dark Colors
+$c-black:         #000;
+$c-off-black:     #999;
+$c-darker:        #888;
+$c-dark:          #777;
+
+
+// Medium Colors
+$c-grey-dark:     #aaa;
+$c-grey:          #ccc;
+$c-grey-light:    #eee;
+
+// Light Colors
+$c-white:         #fff;
+
+
+// Inputs
+$c-focus:         #5ab;
+
+
+// Button Colors
+$a--bg:           #0ae;
+$a--hover:        #09d;
+$a--active:       #08b;
+
+$b--bg:           #3c5;
+$b--hover:        #2b4;
+$b--active:       #2a4;
+
+$c--bg:           #d33;
+$c--hover:        #c22;
+$c--active:       #b22;
+
+
+
+
+//-------------------------------------------------------------------
+//  General Styling and Resets
+//-------------------------------------------------------------------
+
+body,
+textarea, input {
+  background: 0;
+  border-radius: 0;
+  font: 16px sans-serif;
+  margin: 0;
+}
+
+* {
+  outline: 0;
+}
+
+// apply a smooth transition effect to an element's state change
+.smooth {
+  transition: all .2s;
+}
+
+// this extends into both nav a and .btn
+%no-underline {
+  text-decoration: none;
+}
+
+// shared large text size
+%txt-large {
+  font-size: 2em;
+}
+
+// shared smaller text size
+%shared-font-size {
+  font-size: 14px;
+}
+
+
+
+
+//-------------------------------------------------------------------
+// Headings
+//-------------------------------------------------------------------
+
+
+// Set style for <h1> -- larger than 'normal'
+//h1 {
+//  font-size: 4em;
+//}
+
+// Sets style for <h2>
+h2 {
+  @extend %txt-large;
+}
+
+
+
+//-------------------------------------------------------------------
+// Buttons
+//-------------------------------------------------------------------
+
+
+// Mixin to set btn background for inactive, active & hover states
+// set default variables to be base button colors.
+@mixin btn-style ($bg:        $c-off-black,
+                  $bg-hover:  $c-darker,
+                  $bg-active: $c-dark) {
+  background: $bg;
+
+  &:hover {
+    background: $bg-hover;
+  }
+
+  &:active, &:focus {
+    background: $bg-active;
+  }
+}
+
+
+// Set Generic <button> and .btn styling.
+// use .btn on any element to give it the styling of a button
+.btn {
+  @extend %txt-large;
+  @extend %no-underline;
+  @include btn-style;
+  border: 0;
+  border-radius: 6px; // rounded corners
+  color: $c-white;
+  cursor: pointer;
+  display: inline-block; // Enables non-inline-block elements like <a>s to be buttons
+  margin: .2em .3em .2em 0;
+  padding: 12px 30px 14px;
+}
+
+
+// Set colors for your buttons, see the button mixin at the top of this
+// section to see how the hex colors are allocated
+.btn-a {
+  @include btn-style($a--bg, $a--hover, $a--active);
+}
+
+.btn-b {
+  @include btn-style($b--bg, $b--hover, $b--active);
+}
+
+.btn-c {
+  @include btn-style($c--bg, $c--hover, $c--active);
+}
+
+
+// Add this class to a <button> or element with a .btn class
+// to create a smaller sized button.
+.btn-sm {
+  @extend %shared-font-size;
+  border-radius: 4px; /* rounded corners */
+  padding: 10px 15px 11px;
+}
+
+
+//-------------------------------------------------------------------
+//  Form Elements
+//-------------------------------------------------------------------
+
+form > * {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label > * {
+  display: inline;
+}
+
+input, textarea {
+  @extend %shared-font-size;
+  border: 1px solid $c-grey;
+  padding: 8px;
+
+  &:focus {
+    border-color: $c-focus;
+  }
+}
+
+
+input[type='text'], textarea {
+  -webkit-appearance: none; // make iOS inputs pretty
+  width: 13em;
+}
+
+
+.addon {
+  @extend %shared-font-size;
+  box-shadow: 0 0 0 1px $c-grey;
+  padding: 8px 12px;
+}
+
+
+//-------------------------------------------------------------------
+//  Messages
+//-------------------------------------------------------------------
+
+.msg {
+  background: #def;
+  border-left: 5px solid #59d;
+  padding: 1.5em;
+}
+
+
+//-------------------------------------------------------------------
+//  Tables
+//-------------------------------------------------------------------
+
+.table {
+  @extend %w-100;
+
+  th, td {
+    padding: .5em;
+    text-align: left;
+  }
+
+  tbody>*:nth-child(2n-1) {
+    background: $c-grey;
+    // We use tbody to ensure that we don't shade the heading
+    // this preserves the order of the shading
+  }
+}

@@ -1,0 +1,924 @@
+1
+00:00:00,000 --> 00:00:01,379
+
+
+2
+00:00:01,379 --> 00:00:04,169
+Welcome to this first video, and actually the first video
+
+3
+00:00:04,169 --> 00:00:06,799
+in the playlist on differential equations.
+
+4
+00:00:06,799 --> 00:00:09,809
+I know I touched on this before when we did harmonic
+
+5
+00:00:09,810 --> 00:00:11,169
+motion, and I think I might have touched
+
+6
+00:00:11,169 --> 00:00:12,449
+on it in other subjects.
+
+7
+00:00:12,449 --> 00:00:16,399
+But now, because of your request, we'll do a whole
+
+8
+00:00:16,399 --> 00:00:17,179
+playlist on this.
+
+9
+00:00:17,179 --> 00:00:20,489
+And that's a fairly useful thing, because differential
+
+10
+00:00:20,489 --> 00:00:26,729
+equations is something that shows up in a whole set of
+
+11
+00:00:26,730 --> 00:00:27,660
+different fields.
+
+12
+00:00:27,660 --> 00:00:30,490
+I've been requested by someone who's starting an economics
+
+13
+00:00:30,489 --> 00:00:33,049
+PhD program to do this; I've been requested by some people
+
+14
+00:00:33,049 --> 00:00:35,659
+who are going into physics, some people who are going into
+
+15
+00:00:35,659 --> 00:00:36,179
+engineering.
+
+16
+00:00:36,179 --> 00:00:40,299
+So it's a widely applicable area of study.
+
+17
+00:00:40,299 --> 00:00:43,349
+So let's just get started, before I keep going off on
+
+18
+00:00:43,350 --> 00:00:44,079
+useless stuff.
+
+19
+00:00:44,079 --> 00:00:45,129
+So the differential equations.
+
+20
+00:00:45,130 --> 00:00:48,370
+So the first question is: what is a differential equation?
+
+21
+00:00:48,369 --> 00:00:49,729
+You know what an equation is.
+
+22
+00:00:49,729 --> 00:00:51,739
+What is a differential equation?
+
+23
+00:00:51,740 --> 00:00:55,670
+Well, a differential equation is an equation that involves
+
+24
+00:00:55,670 --> 00:00:57,679
+an unknown function and its derivatives.
+
+25
+00:00:57,679 --> 00:00:58,589
+So what do I mean by that?
+
+26
+00:00:58,590 --> 00:01:10,290
+Well, let's say that I said that y prime plus y is equal
+
+27
+00:01:10,290 --> 00:01:13,180
+to x plus 3.
+
+28
+00:01:13,180 --> 00:01:15,010
+Here, the unknown function is y.
+
+29
+00:01:15,010 --> 00:01:18,430
+We could have written it as y of x, or we could have written
+
+30
+00:01:18,430 --> 00:01:25,100
+this as dy dx, the derivative of y with respect to x plus
+
+31
+00:01:25,099 --> 00:01:29,009
+this unknown function y is equal to plus 3.
+
+32
+00:01:29,010 --> 00:01:35,439
+We also could have written f prime of x plus f of x is
+
+33
+00:01:35,439 --> 00:01:37,170
+equal to plus 3.
+
+34
+00:01:37,170 --> 00:01:39,850
+All of these would have been valid ways of writing this
+
+35
+00:01:39,849 --> 00:01:42,079
+exact same differential equation.
+
+36
+00:01:42,079 --> 00:01:46,099
+And what's interesting here, and how this is a departure
+
+37
+00:01:46,099 --> 00:01:48,890
+from what we've learned before about just regular equations
+
+38
+00:01:48,890 --> 00:01:51,019
+is that-- let me write down a regular equation just to
+
+39
+00:01:51,019 --> 00:01:52,500
+remind you what they look like.
+
+40
+00:01:52,500 --> 00:01:55,049
+So a regular equation, if we had one variable, would look
+
+41
+00:01:55,049 --> 00:01:56,310
+something like this.
+
+42
+00:01:56,310 --> 00:02:02,480
+I don't know, x squared plus the cosine of x is equal to
+
+43
+00:02:02,480 --> 00:02:03,570
+the square root of x.
+
+44
+00:02:03,569 --> 00:02:04,969
+I just made that up.
+
+45
+00:02:04,969 --> 00:02:08,109
+Here, the solution is a number, or sometimes it's a
+
+46
+00:02:08,110 --> 00:02:08,770
+set of numbers.
+
+47
+00:02:08,770 --> 00:02:10,030
+Sometimes there's more than one, right?
+
+48
+00:02:10,030 --> 00:02:11,759
+If you have a polynomial, you could have more than one
+
+49
+00:02:11,759 --> 00:02:15,259
+values of x that satisfy this equation.
+
+50
+00:02:15,259 --> 00:02:17,870
+Here, for a differential equation, the
+
+51
+00:02:17,870 --> 00:02:20,289
+solution is a function.
+
+52
+00:02:20,289 --> 00:02:24,599
+Our goal is to figure out what function of x, and here I
+
+53
+00:02:24,599 --> 00:02:28,400
+wrote f of x explicitly, but what function of x explicitly
+
+54
+00:02:28,400 --> 00:02:32,980
+satisfies this relationship or this equation.
+
+55
+00:02:32,979 --> 00:02:34,679
+So let me show you what I mean by that.
+
+56
+00:02:34,680 --> 00:02:38,379
+And I have my differential equations book from college,
+
+57
+00:02:38,379 --> 00:02:41,310
+so I'm going to use that as we go.
+
+58
+00:02:41,310 --> 00:02:44,289
+So let's say that-- I'm just writing now.
+
+59
+00:02:44,289 --> 00:02:48,120
+See, they have this as a differential equation.
+
+60
+00:02:48,120 --> 00:02:50,710
+And I'm not going to show you necessarily how to solve them
+
+61
+00:02:50,710 --> 00:02:53,890
+just yet, because we have to learn some tricks first. But I
+
+62
+00:02:53,889 --> 00:02:56,649
+think a good place to start is just so you understand what a
+
+63
+00:02:56,650 --> 00:02:59,620
+differential equation is, so you don't get confused with
+
+64
+00:02:59,620 --> 00:03:01,460
+the traditional equation.
+
+65
+00:03:01,460 --> 00:03:03,900
+So, they have this differential [? derivative. ?]
+
+66
+00:03:03,900 --> 00:03:06,050
+y prime prime.
+
+67
+00:03:06,050 --> 00:03:10,280
+So the second derivative of y with respect to x, plus 2
+
+68
+00:03:10,280 --> 00:03:16,090
+times the first derivative of y with respect to x, minus 3 y
+
+69
+00:03:16,090 --> 00:03:17,909
+is equal to 0.
+
+70
+00:03:17,909 --> 00:03:20,990
+And they give us the solutions here, and what they want us to
+
+71
+00:03:20,990 --> 00:03:22,210
+do is show that these are solutions.
+
+72
+00:03:22,210 --> 00:03:24,020
+And I think this is a good place to just at least
+
+73
+00:03:24,020 --> 00:03:26,930
+understand what a differential equation is, and what its
+
+74
+00:03:26,930 --> 00:03:27,969
+solution means.
+
+75
+00:03:27,969 --> 00:03:34,000
+So they say y1 of x is equal to e to the minus 3x.
+
+76
+00:03:34,000 --> 00:03:36,310
+So they claim that this is a solution of this
+
+77
+00:03:36,310 --> 00:03:37,039
+differential equation.
+
+78
+00:03:37,039 --> 00:03:39,169
+So let me show to you that this is.
+
+79
+00:03:39,169 --> 00:03:44,589
+Well, if this is soon. y1, what's y-- well, let
+
+80
+00:03:44,590 --> 00:03:45,569
+me just write y1.
+
+81
+00:03:45,569 --> 00:03:47,079
+What's y1 prime?
+
+82
+00:03:47,080 --> 00:03:49,010
+What's the derivative of this?
+
+83
+00:03:49,009 --> 00:03:50,689
+Well, just do the chain rule.
+
+84
+00:03:50,689 --> 00:03:55,180
+The derivative of the whole function, with respect to this
+
+85
+00:03:55,180 --> 00:03:58,420
+part of it, is just e to the minus 3x.
+
+86
+00:03:58,419 --> 00:04:00,349
+And then you take the derivative of the inside.
+
+87
+00:04:00,349 --> 00:04:02,079
+So that's just the derivative of the outside, e
+
+88
+00:04:02,080 --> 00:04:02,550
+to the minus 3x.
+
+89
+00:04:02,550 --> 00:04:08,160
+And the derivative of the inside is minus 3.
+
+90
+00:04:08,159 --> 00:04:13,020
+And the second derivative of y1 is equal to-- we'll just
+
+91
+00:04:13,020 --> 00:04:15,189
+take the derivative of this, and that's just equal to plus
+
+92
+00:04:15,189 --> 00:04:19,100
+9-- minus 3 times minus 3-- e to the minus 3x.
+
+93
+00:04:19,100 --> 00:04:24,060
+Now, let's verify that if we substitute y1 and its
+
+94
+00:04:24,060 --> 00:04:27,930
+derivatives back into this differential equation, that it
+
+95
+00:04:27,930 --> 00:04:28,519
+holds true.
+
+96
+00:04:28,519 --> 00:04:30,729
+So y prime prime, that's this.
+
+97
+00:04:30,730 --> 00:04:39,129
+So we get nine e to the minus 3x, plus 2y prime.
+
+98
+00:04:39,129 --> 00:04:41,110
+Plus 2 times y prime.
+
+99
+00:04:41,110 --> 00:04:42,620
+Well, this is y prime.
+
+100
+00:04:42,620 --> 00:04:49,810
+So 2 times minus 3 e to the minus 3x plus-- oh sorry,
+
+101
+00:04:49,810 --> 00:04:52,009
+minus-- 3 times y.
+
+102
+00:04:52,009 --> 00:04:53,430
+Well, y is this.
+
+103
+00:04:53,430 --> 00:04:58,439
+So minus 3 times e to the minus 3x.
+
+104
+00:04:58,439 --> 00:05:00,439
+Well, what does that equal?
+
+105
+00:05:00,439 --> 00:05:09,259
+We get 9 e to the minus 3x, minus 6 e to the minus 3x,
+
+106
+00:05:09,259 --> 00:05:11,670
+minus 3 e to the minus 3x.
+
+107
+00:05:11,670 --> 00:05:12,980
+Well, what does that equal?
+
+108
+00:05:12,980 --> 00:05:15,160
+We have 9 of something minus 6 of
+
+109
+00:05:15,160 --> 00:05:16,290
+something minus 3 of something.
+
+110
+00:05:16,290 --> 00:05:17,460
+So that just equals 0.
+
+111
+00:05:17,459 --> 00:05:19,549
+It doesn't matter of 0 whatever.
+
+112
+00:05:19,550 --> 00:05:21,139
+So that equals 0.
+
+113
+00:05:21,139 --> 00:05:26,779
+So we verified that for this function, for y1 is equal to e
+
+114
+00:05:26,779 --> 00:05:30,869
+to the minus 3x, it satisfies this differential equation.
+
+115
+00:05:30,870 --> 00:05:33,079
+Now there's something interesting here, and you've
+
+116
+00:05:33,079 --> 00:05:35,339
+kind of touched on this with regular equations, is that
+
+117
+00:05:35,339 --> 00:05:38,319
+this might not be the only solution.
+
+118
+00:05:38,319 --> 00:05:42,519
+In fact we'll learn, in maybe a video or two, that often the
+
+119
+00:05:42,519 --> 00:05:43,759
+solution is not just a function.
+
+120
+00:05:43,759 --> 00:05:46,209
+It could be a class of functions where usually
+
+121
+00:05:46,209 --> 00:05:49,899
+they're all kind of the same function, but you have a
+
+122
+00:05:49,899 --> 00:05:50,979
+difference of constants.
+
+123
+00:05:50,980 --> 00:05:52,200
+But I'll show you that in a second.
+
+124
+00:05:52,199 --> 00:05:53,849
+But here, they actually show us that there's another
+
+125
+00:05:53,850 --> 00:05:57,960
+solution, that this will actually work with, we could
+
+126
+00:05:57,959 --> 00:06:03,799
+try the equation y2 of x is equal to, well, just
+
+127
+00:06:03,800 --> 00:06:06,020
+simple e to the x.
+
+128
+00:06:06,019 --> 00:06:07,549
+And we could verify that, right?
+
+129
+00:06:07,550 --> 00:06:09,900
+What's the first and second derivatives of e to the x?
+
+130
+00:06:09,899 --> 00:06:11,469
+Well, they're just e to the x.
+
+131
+00:06:11,470 --> 00:06:16,270
+So the second derivative of y2 is just e to the x plus 2
+
+132
+00:06:16,269 --> 00:06:22,729
+times the first derivative is what?
+
+133
+00:06:22,730 --> 00:06:24,710
+Well the first derivative of e to the x is still e to the x,
+
+134
+00:06:24,709 --> 00:06:27,969
+2 e to the x, minus 3 times a function.
+
+135
+00:06:27,970 --> 00:06:30,320
+Minus 3e to the x.
+
+136
+00:06:30,319 --> 00:06:34,009
+Well, 1 plus 2 minus 3, well that equals 0 again.
+
+137
+00:06:34,009 --> 00:06:41,689
+So this was also a solution to this differential equation.
+
+138
+00:06:41,689 --> 00:06:44,509
+Now before we go on, in the next one I'll show you some
+
+139
+00:06:44,509 --> 00:06:45,920
+fairly straightforward differential
+
+140
+00:06:45,920 --> 00:06:48,650
+equations to solve.
+
+141
+00:06:48,649 --> 00:06:50,859
+I think it's a good time now, now that you hopefully have a
+
+142
+00:06:50,860 --> 00:06:54,569
+grasp of what a differential equation is, and what its
+
+143
+00:06:54,569 --> 00:06:55,370
+solution is.
+
+144
+00:06:55,370 --> 00:06:57,610
+And its solution isn't a number, its solution is a
+
+145
+00:06:57,610 --> 00:06:59,759
+function, or a set of functions,
+
+146
+00:06:59,759 --> 00:07:01,379
+or a class of functions.
+
+147
+00:07:01,379 --> 00:07:02,819
+It's a good time to just go over a little bit of
+
+148
+00:07:02,819 --> 00:07:04,099
+terminology.
+
+149
+00:07:04,100 --> 00:07:06,820
+So there's two big classifications.
+
+150
+00:07:06,819 --> 00:07:09,579
+Well actually, there's a first big one, ordinary and partial
+
+151
+00:07:09,579 --> 00:07:10,899
+differential equations.
+
+152
+00:07:10,899 --> 00:07:12,589
+I think you might have already guessed what that means.
+
+153
+00:07:12,589 --> 00:07:15,289
+An ordinary differential equation is what I wrote down.
+
+154
+00:07:15,290 --> 00:07:19,550
+It's one variable with respect to another variable, or one
+
+155
+00:07:19,550 --> 00:07:21,990
+function with respect you to, say, x and its derivatives.
+
+156
+00:07:21,990 --> 00:07:24,350
+Partial differential equations we'll get into later.
+
+157
+00:07:24,350 --> 00:07:25,189
+That's more complicated.
+
+158
+00:07:25,189 --> 00:07:27,699
+That's when a function can be a function of
+
+159
+00:07:27,699 --> 00:07:28,740
+more than one variable.
+
+160
+00:07:28,740 --> 00:07:31,120
+And you can have the derivative with respect to x,
+
+161
+00:07:31,120 --> 00:07:31,949
+and y, and z.
+
+162
+00:07:31,949 --> 00:07:33,569
+We won't worry about that right now.
+
+163
+00:07:33,569 --> 00:07:36,569
+If your functions and their derivatives are a function of
+
+164
+00:07:36,569 --> 00:07:38,629
+only one variable, then we're dealing with an ordinary
+
+165
+00:07:38,629 --> 00:07:39,490
+differential equation.
+
+166
+00:07:39,490 --> 00:07:44,730
+That's what this playlist will deal with, ordinary
+
+167
+00:07:44,730 --> 00:07:50,230
+differential equations.
+
+168
+00:07:50,230 --> 00:07:53,620
+Now within ordinary differential equations,
+
+169
+00:07:53,620 --> 00:07:55,709
+there's two ways of classifying, and
+
+170
+00:07:55,709 --> 00:07:57,279
+they kind of overlap.
+
+171
+00:07:57,279 --> 00:08:00,299
+You have your order, so what is the order of my
+
+172
+00:08:00,300 --> 00:08:01,180
+differential equation?
+
+173
+00:08:01,180 --> 00:08:05,819
+And then you have this notion of whether it is linear or
+
+174
+00:08:05,819 --> 00:08:08,099
+non-linear.
+
+175
+00:08:08,100 --> 00:08:10,640
+And I think the best way to figure this out is just to
+
+176
+00:08:10,639 --> 00:08:12,250
+write down examples.
+
+177
+00:08:12,250 --> 00:08:15,735
+So let me write down one.
+
+178
+00:08:15,735 --> 00:08:17,759
+And I'm getting this from my college
+
+179
+00:08:17,759 --> 00:08:20,060
+differential equations book.
+
+180
+00:08:20,060 --> 00:08:26,050
+x squared times the second derivative of y with respect
+
+181
+00:08:26,050 --> 00:08:33,188
+to x, plus x times the first derivative of y with respect
+
+182
+00:08:33,188 --> 00:08:40,719
+to x, plus 2y is equal to sine of x.
+
+183
+00:08:40,720 --> 00:08:43,250
+So the first question here is: what is the order?
+
+184
+00:08:43,250 --> 00:08:47,269
+All the order is is the highest derivative that exists
+
+185
+00:08:47,269 --> 00:08:48,600
+in your equation.
+
+186
+00:08:48,600 --> 00:08:50,360
+The highest derivative of the function
+
+187
+00:08:50,360 --> 00:08:51,149
+under question, right?
+
+188
+00:08:51,149 --> 00:08:55,649
+The solution of this is going to be a y of x, that satisfies
+
+189
+00:08:55,649 --> 00:08:56,879
+this equation.
+
+190
+00:08:56,879 --> 00:08:59,750
+And the order is the highest derivative of that function.
+
+191
+00:08:59,750 --> 00:09:04,080
+Well, the highest derivative here is the second derivative.
+
+192
+00:09:04,080 --> 00:09:05,500
+So this has order 2.
+
+193
+00:09:05,500 --> 00:09:08,860
+
+
+194
+00:09:08,860 --> 00:09:11,960
+Or as you could call this, a second order ordinary
+
+195
+00:09:11,960 --> 00:09:13,360
+differential equation.
+
+196
+00:09:13,360 --> 00:09:15,779
+Now the second thing we have to figure out: is this linear
+
+197
+00:09:15,779 --> 00:09:18,639
+or is this a non-linear differential equation?
+
+198
+00:09:18,639 --> 00:09:23,600
+So a differential equation is linear if all of the functions
+
+199
+00:09:23,600 --> 00:09:28,480
+and its derivatives are essentially, well for lack of
+
+200
+00:09:28,480 --> 00:09:29,110
+a better word, linear.
+
+201
+00:09:29,110 --> 00:09:29,830
+What do I mean by that?
+
+202
+00:09:29,830 --> 00:09:32,509
+I mean you don't have a y squared, or you don't have a
+
+203
+00:09:32,509 --> 00:09:36,750
+dy over dx squared, or you don't have a y times the
+
+204
+00:09:36,750 --> 00:09:38,080
+second derivative of y.
+
+205
+00:09:38,080 --> 00:09:43,100
+So this example I just wrote here, this is a second order
+
+206
+00:09:43,100 --> 00:09:46,529
+linear equation, because you have the second derivative,
+
+207
+00:09:46,529 --> 00:09:49,579
+the first derivative, and y, but they're not multiplied by
+
+208
+00:09:49,580 --> 00:09:50,910
+the function or the derivatives.
+
+209
+00:09:50,909 --> 00:09:59,600
+Now if this equation were-- if I rewrote it as x squared d,
+
+210
+00:09:59,600 --> 00:10:06,259
+the second derivative of y with respect to x squared, is
+
+211
+00:10:06,259 --> 00:10:11,470
+equal to sine of x, and let's say I were to square this.
+
+212
+00:10:11,470 --> 00:10:13,660
+Now, all of the sudden, I have a non-linear
+
+213
+00:10:13,659 --> 00:10:14,689
+differential equation.
+
+214
+00:10:14,690 --> 00:10:15,860
+This is non-linear.
+
+215
+00:10:15,860 --> 00:10:17,029
+This is linear.
+
+216
+00:10:17,029 --> 00:10:21,189
+Because I squared, I multiplied the second
+
+217
+00:10:21,190 --> 00:10:25,410
+derivative of y with respect-- I multiplied it times itself.
+
+218
+00:10:25,409 --> 00:10:27,740
+Another example of a non-linear equation is if I
+
+219
+00:10:27,740 --> 00:10:35,230
+wrote y times the second derivative of y with respect
+
+220
+00:10:35,230 --> 00:10:38,389
+to x is equal to sine of x.
+
+221
+00:10:38,389 --> 00:10:41,799
+This is also non-linear, because I multiplied the
+
+222
+00:10:41,799 --> 00:10:44,139
+function times its second derivative.
+
+223
+00:10:44,139 --> 00:10:46,340
+Notice here, I did multiply stuff times the second
+
+224
+00:10:46,340 --> 00:10:49,009
+derivative, but it was the independent variable x that I
+
+225
+00:10:49,009 --> 00:10:50,200
+multiplied.
+
+226
+00:10:50,200 --> 00:10:52,690
+But anyway, I've run out of time, and hopefully that gives
+
+227
+00:10:52,690 --> 00:10:54,690
+you a good at least survey of what a
+
+228
+00:10:54,690 --> 00:10:56,270
+differential equation is.
+
+229
+00:10:56,269 --> 00:10:59,840
+In the next video, we'll start actually solving them.
+
+230
+00:10:59,840 --> 00:11:01,090
+See
+
+231
+00:11:01,090 --> 00:11:01,500
+
+

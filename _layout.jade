@@ -1,0 +1,21 @@
+doctype
+html
+  head
+    title= title
+    meta(name="description" content="#{ description }")
+    //Grid
+    link(rel="stylesheet" href="/css/grid.css")
+    link(rel="stylesheet" href="/css/core.css")
+
+    //Videojs
+    link(rel="stylesheet" href="/videojs/video-js.min.css")
+    script(type='text/javascript', src='/videojs/video.js')
+    script(type='text/javascript').
+        videojs.options.flash.swf="/videojs/video-js.swf";
+
+  body.row
+    != yield
+    #footer
+      p All Khan Academy content is available for free at 
+        a(href='http://www.khanacademy.org/') www.khanacademy.org .
+      p This collection was created August 2013.

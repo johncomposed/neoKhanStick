@@ -1,0 +1,11 @@
+for slug in public.math._data
+  if (slug.pages.indexOf(current.source) > -1)
+    each page, i in slug.pages
+      if page == current.source
+        - prev = slug.pages[i - 1]
+        - next = slug.pages[i + 1]
+        .subnav-pagination
+          if prev
+            a.subnav-pagination-item(href="#{ prev }.html") ← Previous Video
+          if next
+            a.subnav-pagination-item(href="#{ next }.html") Next Video →
