@@ -1,4 +1,5 @@
-for slug in public.math._data
+- var datadir = public[current.path.slice(0,1)]._data
+for slug in datadir
   if (slug.pages.indexOf(current.source) > -1)
     each page, i in slug.pages
       if page == current.source

@@ -1,11 +1,11 @@
 - function cap(string) {
   - return string.charAt(0).toUpperCase() + string.slice(1).replace(/-/g, " ");
 - }
-- var cols = public.math._data.length
+- var datadir = public[current.path.slice(0,1)]._data
+- var cols = datadir.length
 - var n = Math.floor(12/cols)
-
 .row
-  for slug in public.math._data
+  for slug in datadir
     .col(class=["c#{ n }"])
       h4= cap(slug.name)
       ul
