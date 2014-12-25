@@ -5,8 +5,40 @@
     | How do you like me now (that is what the differential equation would say in response to your shock)!
   .playlist
     ul
-      li
-        a(href='math/first-order-differential-equations/what-is-a-differential-equation.html', name='what-is-a-differential-equation')
-          img(src='math/media/-_POEWfygmU.jpg', alt='')
-          b What is a differential equation
-        p What a differential equation is and some terminology.
+        li
+          a(href='math/first-order-differential-equations/what-is-a-differential-equation.html', name='what-is-a-differential-equation')
+            img(src='math/media/-_POEWfygmU.jpg', alt='')
+            b What is a differential equation
+            p What a differential equation is and some terminology.
+
+
+
+
+h1 Index Functionality 
+p Goes through all the _data.json in subject-specific subdirs
+mixin tree(head, tail)
+  for val, key in head
+    if (['_data'].indexOf(key) > -1)
+      - function cap(string) {
+      - return string.charAt(0).toUpperCase() + string.slice(1).replace(/-/g, " ");
+      - }
+      - var cols = val.length
+      - var n = Math.floor(12/cols)
+      .row
+        //h2 #{ cap(tail.replace(/\//g, " ")) } 
+        //Maybe I could use the head object there...
+        //Or maybe I should change the _data.json
+        for slug in val
+          .col(class=["c#{ n }"])
+            h4= cap(slug.name)
+            ul
+              each page in slug.pages
+                li(class="#{ current.source == page ? 'active' : '' }")
+                  a(href="./#{ page }.html") #{ cap(page) }
+    if (['.git', '_data', 'assets', '_partials'].indexOf(key) == -1) && key != '_contents'
+      mixin tree(val, tail + key + "/")
+
+mixin tree(public, "/")
+
+
+
