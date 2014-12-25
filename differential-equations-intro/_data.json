@@ -1,35 +1,92 @@
-[
-  {
-    "name": "differential-equations-intro",
-    "pages": [
-      "simple-differential-equations",
-      "what-is-a-differential-equation"
-    ]
-  },
-  {
-    "name": "exact-equations",
-    "pages": [
-      "exact-equations-example-1",
-      "exact-equations-example-2",
-      "exact-equations-example-3",
-      "exact-equations-intuition-1--proofy",
-      "exact-equations-intuition-2--proofy",
-      "integrating-factors-1",
-      "integrating-factors-2"
-    ]
-  },
-  {
-    "name": "homogeneous-equations",
-    "pages": [
-      "first-order-homegenous-equations",
-      "first-order-homogenous-equations-2"
-    ]
-  },
-  {
-    "name": "separable-equations",
-    "pages": [
-      "separable-differential-equations-2",
-      "separable-differential-equations"
-    ]
-  }
-]
+{
+  "topslug": "differential-equations-intro",
+  "topdesc": "Description about topic/section/whatever this is",
+  "topmedia": "topthumbnailnoext",
+  "content": [
+    {
+      "name": "differential-equations-intro",
+      "pages": [
+        {
+          "slug": "simple-differential-equations",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "what-is-a-differential-equation",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        }
+      ]
+    },
+    {
+      "name": "exact-equations",
+      "pages": [
+        {
+          "slug": "exact-equations-example-1",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "exact-equations-example-2",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "exact-equations-example-3",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "exact-equations-intuition-1--proofy",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "exact-equations-intuition-2--proofy",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "integrating-factors-1",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "integrating-factors-2",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        }
+      ]
+    },
+    {
+      "name": "homogeneous-equations",
+      "pages": [
+        {
+          "slug": "first-order-homegenous-equations",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "first-order-homogenous-equations-2",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        }
+      ]
+    },
+    {
+      "name": "separable-equations",
+      "pages": [
+        {
+          "slug": "separable-differential-equations-2",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        },
+        {
+          "slug": "separable-differential-equations",
+          "desc": "Description goes here",
+          "media": "mediaslugnoextension"
+        }
+      ]
+    }
+  ]
+}

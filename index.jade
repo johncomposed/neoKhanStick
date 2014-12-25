@@ -22,19 +22,19 @@ mixin tree(head, tail)
       - function cap(string) {
       - return string.charAt(0).toUpperCase() + string.slice(1).replace(/-/g, " ");
       - }
-      - var cols = val.length
+      - var cols = val.content.length
       - var n = Math.floor(12/cols)
       .row
         //h2 #{ cap(tail.replace(/\//g, " ")) } 
         //Maybe I could use the head object there...
         //Or maybe I should change the _data.json
-        for slug in val
+        for obj in val.content
           .col(class=["c#{ n }"])
-            h4= cap(slug.name)
+            h4= cap(obj.name)
             ul
-              each page in slug.pages
-                li(class="#{ current.source == page ? 'active' : '' }")
-                  a(href="./#{ page }.html") #{ cap(page) }
+              each page in obj.pages
+                li(class="#{ current.source == page.slug ? 'active' : '' }")
+                  a(href="./#{ page.slug }.html") #{ cap(page.slug) }
     if (['.git', '_data', 'assets', '_partials'].indexOf(key) == -1) && key != '_contents'
       mixin tree(val, tail + key + "/")
 

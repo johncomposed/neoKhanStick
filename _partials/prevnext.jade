@@ -1,12 +1,11 @@
-- var datadir = public[current.path.slice(0,1)]._data
-for slug in datadir
-  if (slug.pages.indexOf(current.source) > -1)
-    each page, i in slug.pages
-      if page == current.source
-        - prev = slug.pages[i - 1]
-        - next = slug.pages[i + 1]
-        .subnav-pagination
-          if prev
-            a.subnav-pagination-item(href="#{ prev }.html") ← Previous Video
-          if next
-            a.subnav-pagination-item(href="#{ next }.html") Next Video →
+- var datadir = public[current.path.slice(0,1)]._data.content
+for obj in datadir
+  each page, i in obj.pages
+    if page.slug == current.source
+      - prev = obj.pages[i - 1]
+      - next = obj.pages[i + 1]
+      .subnav-pagination
+        if prev
+          a.subnav-pagination-item(href="#{ prev.slug }.html") ← Previous Video
+        if next
+          a.subnav-pagination-item(href="#{ next.slug }.html") Next Video →
