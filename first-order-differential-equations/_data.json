@@ -1,10 +1,10 @@
 {
-  "topslug": "differential-equations-intro",
+  "topslug": "first-order-differential-equations",
   "topdesc": "Description about topic/section/whatever this is",
   "topmedia": "topthumbnailnoext",
   "content": [
     {
-      "name": "first-order-differential-equations",
+      "name": "differential-equations-intro",
       "pages": [
         {
           "slug": "simple-differential-equations",
