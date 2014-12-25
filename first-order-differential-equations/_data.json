@@ -7,12 +7,12 @@
       "name": "differential-equations-intro",
       "pages": [
         {
-          "slug": "simple-differential-equations",
+          "slug": "what-is-a-differential-equation",
           "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
-          "slug": "what-is-a-differential-equation",
+          "slug": "simple-differential-equations",
           "desc": "Description goes here",
           "media": "mediaslugnoextension"
         }
