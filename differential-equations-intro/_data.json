@@ -4,7 +4,7 @@
   "topmedia": "topthumbnailnoext",
   "content": [
     {
-      "name": "differential-equations-intro",
+      "name": "first-order-differential-equations",
       "pages": [
         {
           "slug": "simple-differential-equations",

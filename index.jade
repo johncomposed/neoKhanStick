@@ -25,9 +25,7 @@ mixin tree(head, tail)
       - var cols = val.content.length
       - var n = Math.floor(12/cols)
       .row
-        //h2 #{ cap(tail.replace(/\//g, " ")) } 
-        //Maybe I could use the head object there...
-        //Or maybe I should change the _data.json
+        h2 #{ cap(val.topslug) }
         for obj in val.content
           .col(class=["c#{ n }"])
             h4= cap(obj.name)
