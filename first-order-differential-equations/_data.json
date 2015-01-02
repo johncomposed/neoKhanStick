@@ -1,6 +1,5 @@
 {
   "topslug": "first-order-differential-equations",
-  "topdesc": "Description about topic/section/whatever this is",
   "topmedia": "topthumbnailnoext",
   "content": [
     {
@@ -8,13 +7,11 @@
       "pages": [
         {
           "slug": "what-is-a-differential-equation",
-          "desc": "Description goes here",
-          "media": "mediaslugnoextension"
+          "media": "-_POEWfygmU"
         },
         {
           "slug": "simple-differential-equations",
-          "desc": "Description goes here",
-          "media": "mediaslugnoextension"
+          "media": "C8mudsCSmcU"
         }
       ]
     },
@@ -23,37 +20,30 @@
       "pages": [
         {
           "slug": "exact-equations-example-1",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "exact-equations-example-2",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "exact-equations-example-3",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "exact-equations-intuition-1--proofy",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "exact-equations-intuition-2--proofy",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "integrating-factors-1",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "integrating-factors-2",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         }
       ]
@@ -63,12 +53,10 @@
       "pages": [
         {
           "slug": "first-order-homegenous-equations",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "first-order-homogenous-equations-2",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         }
       ]
@@ -78,12 +66,10 @@
       "pages": [
         {
           "slug": "separable-differential-equations-2",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         },
         {
           "slug": "separable-differential-equations",
-          "desc": "Description goes here",
           "media": "mediaslugnoextension"
         }
       ]

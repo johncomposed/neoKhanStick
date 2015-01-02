@@ -11,4 +11,4 @@
       ul
         each page in obj.pages
           li(class="#{ current.source == page.slug ? 'active' : '' }")
-            a(href="./#{ page.slug }.html") #{ cap(page.slug) }
+            a(href="../#{obj.name}/#{ page.slug }.html") #{ cap(page.slug) }
