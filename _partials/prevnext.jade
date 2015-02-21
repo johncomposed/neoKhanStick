@@ -1,6 +1,6 @@
 - var datadir = public[current.path.slice(0,1)]._data.content
 for obj in datadir
-  each page, i in obj.pages
+  for page, i in obj.pages
     if page.slug == current.source
       - prev = obj.pages[i - 1]
       - next = obj.pages[i + 1]

@@ -6,7 +6,8 @@ block head
   <meta test="pleasework">
 
 block body
-  if current.source == index
-    !=partial("../_partials/khanindex")
+  if current.source === 'index'
+    != yield
+    //-!=partial("../_partials/khanindex")
   else
-    !=partial("../_partials/khanvideo")
+    != partial("../_partials/khanvideo")
