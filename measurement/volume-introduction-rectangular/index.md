@@ -1,0 +1,1 @@
+Volume measures how much 3-dimensional "space" an object takes up.  We'll see in this tutorial that it is an extension of length (1-D) or area (2-D) to three dimensions!

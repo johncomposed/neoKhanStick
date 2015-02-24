@@ -1,14 +1,12 @@
-- function cap(string) {
-  - return string.charAt(0).toUpperCase() + string.slice(1).replace(/-/g, " ");
-- }
-- var datadir = public[current.path.slice(0,1)]._data.content
-- var cols = datadir.length
+- var rootDir = current.path.slice(0,1)
+- var datakids = public[current.path.slice(0,1)]._data.children
+- var cols = datakids.length
 - var n = Math.floor(12/cols)
 .row
-  for obj in datadir
+  for obj in datakids
     .col(class=["c#{ n }"])
-      h4= cap(obj.name)
+      h4= obj.title
       ul
-        each page in obj.pages
+        each page in obj.children
           li(class="#{ current.source == page.slug ? 'active' : '' }")
-            a(href="../#{obj.name}/#{ page.slug }.html") #{ cap(page.slug) }
+            a(href="/#{rootDir}/#{obj.slug}/#{ page.slug }.html") #{ page.title }

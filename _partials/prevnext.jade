@@ -1,9 +1,9 @@
-- var datadir = public[current.path.slice(0,1)]._data.content
+- var datadir = public[current.path.slice(0,1)]._data.children
 for obj in datadir
-  for page, i in obj.pages
-    if page.slug == current.source
-      - prev = obj.pages[i - 1]
-      - next = obj.pages[i + 1]
+  for page, i in obj.children
+    if page.slug === current.source
+      - prev = obj.children[i - 1]
+      - next = obj.children[i + 1]
       .subnav-pagination
         if prev
           a.subnav-pagination-item(href="#{ prev.slug }.html") ← Previous Video

@@ -1,0 +1,608 @@
+{
+  "path": "/math/arithmetic/measurement/",
+  "id": "measurement",
+  "title": "Measurement",
+  "contains": [
+    "Topic",
+    "Video",
+    "Exercise"
+  ],
+  "children": [
+    {
+      "path": "/math/arithmetic/measurement/area-basics/",
+      "id": "area-basics",
+      "title": "Area basics",
+      "contains": [
+        "Video",
+        "Exercise"
+      ],
+      "children": [
+        {
+          "duration": 257,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/A7zPgMV4eTM.mp4/A7zPgMV4eTM.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/A7zPgMV4eTM.mp4/A7zPgMV4eTM.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/A7zPgMV4eTM.m3u8/A7zPgMV4eTM.m3u8"
+          },
+          "id": "A7zPgMV4eTM",
+          "title": "Introduction to area and unit squares",
+          "parent_id": "area-basics",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "area-basics"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/area-basics/v/introduction-to-area-and-unit-squares/",
+          "slug": "introduction-to-area-and-unit-squares",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "A7zPgMV4eTM",
+          "readable_id": "introduction-to-area-and-unit-squares",
+          "size": 4209251
+        },
+        {
+          "duration": 224,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/O1R4H3Ca82E.mp4/O1R4H3Ca82E.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/O1R4H3Ca82E.mp4/O1R4H3Ca82E.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/O1R4H3Ca82E.m3u8/O1R4H3Ca82E.m3u8"
+          },
+          "id": "O1R4H3Ca82E",
+          "title": "Measuring the same rectangle with different unit squares",
+          "parent_id": "area-basics",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "area-basics"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/area-basics/v/measuring-the-same-rectangle-with-different-unit-squares/",
+          "slug": "measuring-the-same-rectangle-with-different-unit-squares",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "O1R4H3Ca82E",
+          "readable_id": "measuring-the-same-rectangle-with-different-unit-squares",
+          "size": 1782048
+        },
+        {
+          "duration": 320,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/area-basics/e/area_of_squares_and_rectangles/",
+            "title": "Area problems",
+            "id": "area_of_squares_and_rectangles",
+            "slug": "area_of_squares_and_rectangles"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/DRg2VCo8lP0.mp4/DRg2VCo8lP0.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/DRg2VCo8lP0.mp4/DRg2VCo8lP0.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/DRg2VCo8lP0.m3u8/DRg2VCo8lP0.m3u8"
+          },
+          "id": "DRg2VCo8lP0",
+          "title": "Rectangle area as product of dimensions same as counting unit squares",
+          "parent_id": "area-basics",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "area-basics"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/area-basics/v/rectangle-area-as-product-of-dimensions-same-as-counting-unit-squares/",
+          "slug": "rectangle-area-as-product-of-dimensions-same-as-counting-unit-squares",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "DRg2VCo8lP0",
+          "readable_id": "rectangle-area-as-product-of-dimensions-same-as-counting-unit-squares",
+          "size": 5495092
+        },
+        {
+          "duration": 229,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/Q3wfb0CPhIY.mp4/Q3wfb0CPhIY.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/Q3wfb0CPhIY.mp4/Q3wfb0CPhIY.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/Q3wfb0CPhIY.m3u8/Q3wfb0CPhIY.m3u8"
+          },
+          "id": "Q3wfb0CPhIY",
+          "title": "Area of rectangles and the distributive property",
+          "parent_id": "area-basics",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "area-basics"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/area-basics/v/area-of-rectangles-and-the-distributive-property/",
+          "slug": "area-of-rectangles-and-the-distributive-property",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "Q3wfb0CPhIY",
+          "readable_id": "area-of-rectangles-and-the-distributive-property",
+          "size": 1710361
+        },
+        {
+          "duration": 166,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/ArvnBba_ogI.mp4/ArvnBba_ogI.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/ArvnBba_ogI.mp4/ArvnBba_ogI.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/ArvnBba_ogI.m3u8/ArvnBba_ogI.m3u8"
+          },
+          "id": "ArvnBba_ogI",
+          "title": "Comparing areas of plots of land",
+          "parent_id": "area-basics",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "area-basics"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/area-basics/v/comparing-areas-of-plots-of-land/",
+          "slug": "comparing-areas-of-plots-of-land",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "ArvnBba_ogI",
+          "readable_id": "comparing-areas-of-plots-of-land",
+          "size": 2628492
+        },
+        {
+          "duration": 364,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/xo4VpX2IIMk.mp4/xo4VpX2IIMk.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/xo4VpX2IIMk.mp4/xo4VpX2IIMk.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/xo4VpX2IIMk.m3u8/xo4VpX2IIMk.m3u8"
+          },
+          "id": "xo4VpX2IIMk",
+          "title": "Calculating the square footage of a house",
+          "parent_id": "area-basics",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "area-basics"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/area-basics/v/calculating-the-square-footage-of-a-house/",
+          "slug": "calculating-the-square-footage-of-a-house",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "xo4VpX2IIMk",
+          "readable_id": "calculating-the-square-footage-of-a-house",
+          "size": 2979148
+        }
+      ],
+      "parent_id": "measurement",
+      "ancestor_ids": [
+        "root",
+        "math",
+        "arithmetic",
+        "measurement"
+      ],
+      "description": "Area is how we thinking about how much space something takes in two dimensions such as comparing how much land one property takes up versus another.  In this tutorial, we'll take a conceptual look at how area is actually measured (especially for rectangles).",
+      "kind": "Topic",
+      "slug": "area-basics",
+      "size": 18804392
+    },
+    {
+      "path": "/math/arithmetic/measurement/perimeter/",
+      "id": "perimeter",
+      "title": "Perimeter",
+      "contains": [
+        "Video",
+        "Exercise"
+      ],
+      "children": [
+        {
+          "duration": 201,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/perimeter/e/perimeter_of_squares_and_rectangles/",
+            "title": "Finding perimeter",
+            "id": "perimeter_of_squares_and_rectangles",
+            "slug": "perimeter_of_squares_and_rectangles"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/9uwLgf84p5w.mp4/9uwLgf84p5w.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/9uwLgf84p5w.mp4/9uwLgf84p5w.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/9uwLgf84p5w.m3u8/9uwLgf84p5w.m3u8"
+          },
+          "id": "9uwLgf84p5w",
+          "title": "Introduction to perimeter",
+          "parent_id": "perimeter",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "perimeter"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/perimeter/v/introduction-to-perimeter/",
+          "slug": "introduction-to-perimeter",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "9uwLgf84p5w",
+          "readable_id": "introduction-to-perimeter",
+          "size": 3672981
+        },
+        {
+          "duration": 123,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/perimeter/e/perimeter_of_squares_and_rectangles/",
+            "title": "Finding perimeter",
+            "id": "perimeter_of_squares_and_rectangles",
+            "slug": "perimeter_of_squares_and_rectangles"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/sJmLjUj_h68.mp4/sJmLjUj_h68.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/sJmLjUj_h68.mp4/sJmLjUj_h68.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/sJmLjUj_h68.m3u8/sJmLjUj_h68.m3u8"
+          },
+          "id": "sJmLjUj_h68",
+          "title": "Perimeter of a shape",
+          "parent_id": "perimeter",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "perimeter"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/perimeter/v/perimeter-of-a-shape/",
+          "slug": "perimeter-of-a-shape",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "sJmLjUj_h68",
+          "readable_id": "perimeter-of-a-shape",
+          "size": 970376
+        },
+        {
+          "duration": 334,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/nLY2bzRfQyo.mp4/nLY2bzRfQyo.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/nLY2bzRfQyo.mp4/nLY2bzRfQyo.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/nLY2bzRfQyo.m3u8/nLY2bzRfQyo.m3u8"
+          },
+          "id": "nLY2bzRfQyo",
+          "title": "Comparing areas and perimeters of rectangles",
+          "parent_id": "perimeter",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "perimeter"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/perimeter/v/comparing-area-and-perimeter/",
+          "slug": "comparing-area-and-perimeter",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "nLY2bzRfQyo",
+          "readable_id": "comparing-area-and-perimeter",
+          "size": 2698913
+        }
+      ],
+      "parent_id": "measurement",
+      "ancestor_ids": [
+        "root",
+        "math",
+        "arithmetic",
+        "measurement"
+      ],
+      "description": "Have you ever wondered how much fencing you need to surround a plot of land?  No?  Well, you should still go through this tutorial just in case.  You'll learn all about how to think about and calculate perimeter--essentially the length of the boundary of a figure.",
+      "kind": "Topic",
+      "slug": "perimeter",
+      "size": 7342270
+    },
+    {
+      "path": "/math/arithmetic/measurement/rectangle-area-perimeter-word-pr/",
+      "id": "rectangle-area-perimeter-word-pr",
+      "title": "Rectangle area and perimeter word problems",
+      "contains": [
+        "Video"
+      ],
+      "children": [
+        {
+          "duration": 286,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/-J-6VGxld54.mp4/-J-6VGxld54.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/-J-6VGxld54.mp4/-J-6VGxld54.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/-J-6VGxld54.m3u8/-J-6VGxld54.m3u8"
+          },
+          "id": "-J-6VGxld54",
+          "title": "Table dimensions from perimeter and area",
+          "parent_id": "rectangle-area-perimeter-word-pr",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "rectangle-area-perimeter-word-pr"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/rectangle-area-perimeter-word-pr/v/length-and-width-from-perimeter-and-area/",
+          "slug": "length-and-width-from-perimeter-and-area",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "-J-6VGxld54",
+          "readable_id": "length-and-width-from-perimeter-and-area",
+          "size": 3674651
+        },
+        {
+          "duration": 249,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/YM2G4ATOcpw.mp4/YM2G4ATOcpw.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/YM2G4ATOcpw.mp4/YM2G4ATOcpw.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/YM2G4ATOcpw.m3u8/YM2G4ATOcpw.m3u8"
+          },
+          "id": "YM2G4ATOcpw",
+          "title": "Finding width from perimeter and length",
+          "parent_id": "rectangle-area-perimeter-word-pr",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "rectangle-area-perimeter-word-pr"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/rectangle-area-perimeter-word-pr/v/find-width-from-perimeter/",
+          "slug": "find-width-from-perimeter",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "YM2G4ATOcpw",
+          "readable_id": "find-width-from-perimeter",
+          "size": 2824592
+        },
+        {
+          "duration": 141,
+          "related_exercise": null,
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/D2Ks5SKU6GM.mp4/D2Ks5SKU6GM.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/D2Ks5SKU6GM.mp4/D2Ks5SKU6GM.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/D2Ks5SKU6GM.m3u8/D2Ks5SKU6GM.m3u8"
+          },
+          "id": "D2Ks5SKU6GM",
+          "title": "Comparing poster area",
+          "parent_id": "rectangle-area-perimeter-word-pr",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "rectangle-area-perimeter-word-pr"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/rectangle-area-perimeter-word-pr/v/comparing-area/",
+          "slug": "comparing-area",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "D2Ks5SKU6GM",
+          "readable_id": "comparing-area",
+          "size": 1865862
+        }
+      ],
+      "parent_id": "measurement",
+      "ancestor_ids": [
+        "root",
+        "math",
+        "arithmetic",
+        "measurement"
+      ],
+      "description": "In this tutorial, you'll stretch your understanding of area and perimeter by applying it to word problems.",
+      "kind": "Topic",
+      "slug": "rectangle-area-perimeter-word-pr",
+      "size": 8365105
+    },
+    {
+      "path": "/math/arithmetic/measurement/volume-introduction-rectangular/",
+      "id": "volume-introduction-rectangular",
+      "title": "Volume of a box or rectangular prism",
+      "contains": [
+        "Video",
+        "Exercise"
+      ],
+      "children": [
+        {
+          "duration": 471,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/volume-introduction-rectangular/e/volume_with_unit_cubes/",
+            "title": "Volume with unit cubes",
+            "id": "volume_with_unit_cubes",
+            "slug": "volume_with_unit_cubes"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/xMz9WFvox9g.mp4/xMz9WFvox9g.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/xMz9WFvox9g.mp4/xMz9WFvox9g.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/xMz9WFvox9g.m3u8/xMz9WFvox9g.m3u8"
+          },
+          "id": "xMz9WFvox9g",
+          "title": "How we measure volume",
+          "parent_id": "volume-introduction-rectangular",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "volume-introduction-rectangular"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/volume-introduction-rectangular/v/how-we-measure-volume/",
+          "slug": "how-we-measure-volume",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "xMz9WFvox9g",
+          "readable_id": "how-we-measure-volume",
+          "size": 3653428
+        },
+        {
+          "duration": 133,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/volume-introduction-rectangular/e/volume_with_unit_cubes/",
+            "title": "Volume with unit cubes",
+            "id": "volume_with_unit_cubes",
+            "slug": "volume_with_unit_cubes"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/7WloKabLhII.mp4/7WloKabLhII.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/7WloKabLhII.mp4/7WloKabLhII.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/7WloKabLhII.m3u8/7WloKabLhII.m3u8"
+          },
+          "id": "7WloKabLhII",
+          "title": "Measuring volume with unit cubes",
+          "parent_id": "volume-introduction-rectangular",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "volume-introduction-rectangular"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/volume-introduction-rectangular/v/measuring-volume-with-unit-cubes/",
+          "slug": "measuring-volume-with-unit-cubes",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "7WloKabLhII",
+          "readable_id": "measuring-volume-with-unit-cubes",
+          "size": 2644768
+        },
+        {
+          "duration": 442,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/volume-introduction-rectangular/e/volume_1/",
+            "title": "Volume 1",
+            "id": "volume_1",
+            "slug": "volume_1"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/daCT_24RnIY.mp4/daCT_24RnIY.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/daCT_24RnIY.mp4/daCT_24RnIY.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/daCT_24RnIY.m3u8/daCT_24RnIY.m3u8"
+          },
+          "id": "daCT_24RnIY",
+          "title": "Measuring volume as area times length",
+          "parent_id": "volume-introduction-rectangular",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "volume-introduction-rectangular"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/volume-introduction-rectangular/v/measuring-volume-as-area-times-length/",
+          "slug": "measuring-volume-as-area-times-length",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "daCT_24RnIY",
+          "readable_id": "measuring-volume-as-area-times-length",
+          "size": 4042010
+        },
+        {
+          "duration": 119,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/volume-introduction-rectangular/e/volume_1/",
+            "title": "Volume 1",
+            "id": "volume_1",
+            "slug": "volume_1"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/I9efKVtLCf4.mp4/I9efKVtLCf4.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/I9efKVtLCf4.mp4/I9efKVtLCf4.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/I9efKVtLCf4.m3u8/I9efKVtLCf4.m3u8"
+          },
+          "id": "I9efKVtLCf4",
+          "title": "Volume of a rectangular prism or box examples",
+          "parent_id": "volume-introduction-rectangular",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "volume-introduction-rectangular"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/volume-introduction-rectangular/v/volume-of-a-rectangular-prism-or-box-examples/",
+          "slug": "volume-of-a-rectangular-prism-or-box-examples",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "I9efKVtLCf4",
+          "readable_id": "volume-of-a-rectangular-prism-or-box-examples",
+          "size": 969318
+        },
+        {
+          "duration": 280,
+          "related_exercise": {
+            "path": "/math/arithmetic/measurement/volume-introduction-rectangular/e/volume_2/",
+            "title": "Volume word problems",
+            "id": "volume_2",
+            "slug": "volume_2"
+          },
+          "download_urls": {
+            "mp4": "http://s3.amazonaws.com/KA-youtube-converted/OanPzjf2EYY.mp4/OanPzjf2EYY.mp4",
+            "png": "http://s3.amazonaws.com/KA-youtube-converted/OanPzjf2EYY.mp4/OanPzjf2EYY.png",
+            "m3u8": "http://s3.amazonaws.com/KA-youtube-converted/OanPzjf2EYY.m3u8/OanPzjf2EYY.m3u8"
+          },
+          "id": "OanPzjf2EYY",
+          "title": "Volume word problem example",
+          "parent_id": "volume-introduction-rectangular",
+          "ancestor_ids": [
+            "root",
+            "math",
+            "arithmetic",
+            "measurement",
+            "volume-introduction-rectangular"
+          ],
+          "description": "",
+          "path": "/math/arithmetic/measurement/volume-introduction-rectangular/v/volume-word-problem-example/",
+          "slug": "volume-word-problem-example",
+          "kind": "Video",
+          "keywords": "",
+          "youtube_id": "OanPzjf2EYY",
+          "readable_id": "volume-word-problem-example",
+          "size": 2370476
+        }
+      ],
+      "parent_id": "measurement",
+      "ancestor_ids": [
+        "root",
+        "math",
+        "arithmetic",
+        "measurement"
+      ],
+      "description": "Volume measures how much 3-dimensional \"space\" an object takes up.  We'll see in this tutorial that it is an extension of length (1-D) or area (2-D) to three dimensions!",
+      "kind": "Topic",
+      "slug": "volume-introduction-rectangular",
+      "size": 13680000
+    }
+  ],
+  "parent_id": "arithmetic",
+  "ancestor_ids": [
+    "root",
+    "math",
+    "arithmetic"
+  ],
+  "description": "From length to area to volume to time, thinking about how we measure things.",
+  "kind": "Topic",
+  "slug": "measurement",
+  "size": 48191767
+}
