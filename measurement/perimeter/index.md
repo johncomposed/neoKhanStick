@@ -1,1 +1,0 @@
-Have you ever wondered how much fencing you need to surround a plot of land?  No?  Well, you should still go through this tutorial just in case.  You'll learn all about how to think about and calculate perimeter--essentially the length of the boundary of a figure.

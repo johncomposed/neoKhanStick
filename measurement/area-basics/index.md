@@ -1,1 +1,0 @@
-Area is how we thinking about how much space something takes in two dimensions such as comparing how much land one property takes up versus another.  In this tutorial, we'll take a conceptual look at how area is actually measured (especially for rectangles).

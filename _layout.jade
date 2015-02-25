@@ -1,24 +1,6 @@
-- var thisMonth = new Date().getMonth() + 1
-- var thisYear = new Date().getFullYear()
-
 doctype
 html
-  //Head
   head
-    block head
-      != partial("_partials/head")
-  body.row
-    block topnav
-      != partial("_partials/topnav")
-    block body
-      if current.source === 'index'
-        //- != yield
-        !=partial("_partials/khanindex")
-      else
-        if current.source !== '404'
-          != partial("_partials/khanvideo")
-    block footer
-      #footer
-        p All Khan Academy content is available for free at 
-          a(href='http://www.khanacademy.org/') www.khanacademy.org .
-        p This collection was created on #{ thisMonth }/#{ thisYear }.
+    link(rel="stylesheet" href="/main.css")
+  body
+    != yield

@@ -1,1 +1,0 @@
-In this tutorial, you'll stretch your understanding of area and perimeter by applying it to word problems.
